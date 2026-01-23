@@ -4,6 +4,27 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Siswa" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Guru" vertex="1">
+          <mxGeometry height="60" width="120" x="520" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Orang_tua" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Jadwal" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Kelas" vertex="1">
+          <mxGeometry height="60" width="120" x="120" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mapel" vertex="1">
+          <mxGeometry height="60" width="120" x="660" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="3rKXIeVfvaiQ_egdi19Q-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="PR" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="540" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
