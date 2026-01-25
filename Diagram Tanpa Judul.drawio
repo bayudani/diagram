@@ -704,6 +704,12 @@
         <mxCell id="ucuE1yf2KQhfwFEAtQus-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Admin" vertex="1">
           <mxGeometry height="60" width="30" x="170" y="200" as="geometry" />
         </mxCell>
+        <mxCell id="eLFBd7idEXv5OPBwqI51-37" edge="1" parent="1" source="ucuE1yf2KQhfwFEAtQus-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eLFBd7idEXv5OPBwqI51-38" edge="1" parent="1" source="ucuE1yf2KQhfwFEAtQus-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ucuE1yf2KQhfwFEAtQus-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Ortu" vertex="1">
           <mxGeometry height="60" width="30" x="170" y="450" as="geometry" />
         </mxCell>
