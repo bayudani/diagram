@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="12">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="13">
   <diagram name="erd" id="G1MYwum_uVdZViucQay5">
     <mxGraphModel dx="1209" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2465,6 +2465,60 @@
             <Array as="points">
               <mxPoint x="340" y="551" />
               <mxPoint x="340" y="341" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gFcUkk1JPlt4cbW_FMcM" name="GURU LIHAT JADWAL">
+    <mxGraphModel dx="983" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xbuyZglcjzTLkfPBscQY-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=23;fontSize=11;" value="Guru" vertex="1">
+          <mxGeometry height="270" width="190" x="200" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-2" edge="1" parent="xbuyZglcjzTLkfPBscQY-1" source="xbuyZglcjzTLkfPBscQY-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-3" parent="xbuyZglcjzTLkfPBscQY-1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="70" y="38" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-4" parent="xbuyZglcjzTLkfPBscQY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="&lt;font&gt;melakukan login&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="113" x="27" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-5" parent="xbuyZglcjzTLkfPBscQY-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="memilih menu Lihat jadwal" vertex="1">
+          <mxGeometry height="28" width="117.5" x="25" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-10" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Sistem" vertex="1">
+          <mxGeometry height="270" width="210" x="390" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-11" parent="xbuyZglcjzTLkfPBscQY-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="menampilkan dashboard guru" vertex="1">
+          <mxGeometry height="30" width="162.5" x="27.5" y="89" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-28" edge="1" parent="xbuyZglcjzTLkfPBscQY-10" source="xbuyZglcjzTLkfPBscQY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="xbuyZglcjzTLkfPBscQY-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-14" parent="xbuyZglcjzTLkfPBscQY-10" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="menampilkan tampilan jadwal mengajar" vertex="1">
+          <mxGeometry height="30" width="166.25" x="25.75" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-16" parent="xbuyZglcjzTLkfPBscQY-10" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="94.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-19" edge="1" parent="1" source="xbuyZglcjzTLkfPBscQY-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" target="xbuyZglcjzTLkfPBscQY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-21" edge="1" parent="1" source="xbuyZglcjzTLkfPBscQY-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" target="xbuyZglcjzTLkfPBscQY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xbuyZglcjzTLkfPBscQY-22" edge="1" parent="1" source="xbuyZglcjzTLkfPBscQY-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" target="xbuyZglcjzTLkfPBscQY-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="499" y="350" />
+              <mxPoint x="284" y="350" />
             </Array>
           </mxGeometry>
         </mxCell>
