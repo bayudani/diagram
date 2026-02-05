@@ -2246,12 +2246,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="y84WJUDZ88r-aIq_AHNr" name="GURU  ABSEN">
-    <mxGraphModel dx="1310" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="655" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="APXBIdAGXl-Z9rOrY_hL-1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;startSize=23;fontSize=11;" value="Guru" vertex="1">
-          <mxGeometry height="460" width="190" x="190" y="140" as="geometry" />
+          <mxGeometry height="520" width="190" x="190" y="140" as="geometry" />
         </mxCell>
         <mxCell id="APXBIdAGXl-Z9rOrY_hL-2" edge="1" parent="APXBIdAGXl-Z9rOrY_hL-1" source="APXBIdAGXl-Z9rOrY_hL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;">
           <mxGeometry relative="1" as="geometry">
@@ -2280,7 +2280,7 @@
           <mxGeometry height="23" width="113.75" x="26.5" y="254" as="geometry" />
         </mxCell>
         <mxCell id="APXBIdAGXl-Z9rOrY_hL-14" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="Sistem" vertex="1">
-          <mxGeometry height="460" width="210" x="380" y="140" as="geometry" />
+          <mxGeometry height="520" width="210" x="380" y="140" as="geometry" />
         </mxCell>
         <mxCell id="APXBIdAGXl-Z9rOrY_hL-15" parent="APXBIdAGXl-Z9rOrY_hL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="menampilkan dashboard guru" vertex="1">
           <mxGeometry height="30" width="162.5" x="27.5" y="89" as="geometry" />
@@ -2297,14 +2297,22 @@
         <mxCell id="KcLx_TAjX4K-BeFysXBe-2" parent="APXBIdAGXl-Z9rOrY_hL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="menampilkan halaman absensi siswa" vertex="1">
           <mxGeometry height="30" width="166.25" x="25.630000000000003" y="202" as="geometry" />
         </mxCell>
-        <mxCell id="KcLx_TAjX4K-BeFysXBe-8" parent="APXBIdAGXl-Z9rOrY_hL-14" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" value="" vertex="1">
-          <mxGeometry height="30" width="30" x="94.5" y="420" as="geometry" />
-        </mxCell>
-        <mxCell id="KcLx_TAjX4K-BeFysXBe-12" edge="1" parent="APXBIdAGXl-Z9rOrY_hL-14" source="KcLx_TAjX4K-BeFysXBe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KcLx_TAjX4K-BeFysXBe-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="KQu1brjZgIU-IzgJnQmT-3" edge="1" parent="APXBIdAGXl-Z9rOrY_hL-14" source="KcLx_TAjX4K-BeFysXBe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="108.33333333333348" y="400.0000000000001" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="KcLx_TAjX4K-BeFysXBe-9" parent="APXBIdAGXl-Z9rOrY_hL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="data tersimpan" vertex="1">
           <mxGeometry height="23" width="113.75" x="51.870000000000005" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KQu1brjZgIU-IzgJnQmT-5" edge="1" parent="APXBIdAGXl-Z9rOrY_hL-14" source="KQu1brjZgIU-IzgJnQmT-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="KQu1brjZgIU-IzgJnQmT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KQu1brjZgIU-IzgJnQmT-1" parent="APXBIdAGXl-Z9rOrY_hL-14" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" value="sistem mengirim notifikasi Absensi Anak Ke WA orang Tua&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="118.13" x="51.87" y="404" as="geometry" />
+        </mxCell>
+        <mxCell id="KQu1brjZgIU-IzgJnQmT-4" parent="APXBIdAGXl-Z9rOrY_hL-14" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;fontSize=11;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="93.87" y="470" as="geometry" />
         </mxCell>
         <mxCell id="APXBIdAGXl-Z9rOrY_hL-23" edge="1" parent="1" source="APXBIdAGXl-Z9rOrY_hL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" target="APXBIdAGXl-Z9rOrY_hL-15">
           <mxGeometry relative="1" as="geometry" />
@@ -2650,7 +2658,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="bktBTal5Hcnp3A22Xeb2" name="ORTU KHADIRAN ANAK">
-    <mxGraphModel dx="1048" dy="601" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1310" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
