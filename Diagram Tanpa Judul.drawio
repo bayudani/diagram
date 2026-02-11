@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.6" pages="16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36" version="29.3.7" pages="16">
   <diagram name="erd" id="G1MYwum_uVdZViucQay5">
     <mxGraphModel dx="1209" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -575,7 +575,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vinY92vT6Uh7rPpywwyv" name="usecase">
-    <mxGraphModel dx="1209" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="786" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -640,19 +640,8 @@
         <mxCell id="eLFBd7idEXv5OPBwqI51-15" edge="1" parent="ucuE1yf2KQhfwFEAtQus-1" source="eLFBd7idEXv5OPBwqI51-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;" target="eLFBd7idEXv5OPBwqI51-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eLFBd7idEXv5OPBwqI51-35" edge="1" parent="ucuE1yf2KQhfwFEAtQus-1" source="eLFBd7idEXv5OPBwqI51-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-4" value="include">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="eLFBd7idEXv5OPBwqI51-30" parent="ucuE1yf2KQhfwFEAtQus-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Melihat absensi anak" vertex="1">
-          <mxGeometry height="40" width="86" x="24" y="465" as="geometry" />
-        </mxCell>
-        <mxCell id="eLFBd7idEXv5OPBwqI51-36" edge="1" parent="ucuE1yf2KQhfwFEAtQus-1" source="eLFBd7idEXv5OPBwqI51-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="eLFBd7idEXv5OPBwqI51-4" value="include">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="eLFBd7idEXv5OPBwqI51-31" parent="ucuE1yf2KQhfwFEAtQus-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="melihat jadwal pelajaran anak" vertex="1">
-          <mxGeometry height="40" width="86" x="24" y="525" as="geometry" />
+        <mxCell id="eLFBd7idEXv5OPBwqI51-30" parent="ucuE1yf2KQhfwFEAtQus-1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="menerima Informasi absensi dari notif WA" vertex="1">
+          <mxGeometry height="40" width="119" x="16" y="525" as="geometry" />
         </mxCell>
         <mxCell id="eLFBd7idEXv5OPBwqI51-45" edge="1" parent="ucuE1yf2KQhfwFEAtQus-1" source="eLFBd7idEXv5OPBwqI51-40" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-4" value="include">
           <mxGeometry relative="1" as="geometry" />
@@ -722,11 +711,8 @@
         <mxCell id="eLFBd7idEXv5OPBwqI51-37" edge="1" parent="1" source="ucuE1yf2KQhfwFEAtQus-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eLFBd7idEXv5OPBwqI51-38" edge="1" parent="1" source="ucuE1yf2KQhfwFEAtQus-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-31">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="ucuE1yf2KQhfwFEAtQus-3" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Ortu" vertex="1">
-          <mxGeometry height="60" width="30" x="160" y="525" as="geometry" />
+          <mxGeometry height="60" width="30" x="172" y="555" as="geometry" />
         </mxCell>
         <mxCell id="eLFBd7idEXv5OPBwqI51-16" edge="1" parent="1" source="ucuE1yf2KQhfwFEAtQus-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="eLFBd7idEXv5OPBwqI51-11">
           <mxGeometry relative="1" as="geometry" />
